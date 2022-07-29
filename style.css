@@ -1,0 +1,36 @@
+/* -----------header------------ */
+.header-top {
+  margin-top: 10px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+.navbar {
+  border-radius: 30px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.lable1 {
+  padding-right: 20px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.details {
+  justify-content: space-between;
+}
+
+img.cart-img {
+  width: 100px;
+  height: 100px;
+}
+
+.input-group {
+  max-width: 30%;
+  margin-left: 10%;
+  margin-right: 5px;
+}
