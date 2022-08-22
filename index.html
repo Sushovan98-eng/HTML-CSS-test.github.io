@@ -1,339 +1,316 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>W-Hotels</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="style.css" />
-    <title>ShoppingCart</title>
   </head>
+
   <body>
-    <div class="contents">
-      <div class="header">
-        <header>
-          <div class="header-top d-flex justify-content-end">
-            <div class="header_top--logo">
-              <img src="images/logo.png" alt="logo" />
-            </div>
-            <div class="input-group">
-              <input
-                class="form-control py-2 rounded-pill mr-1 pr-5"
-                type="search"
-                placeholder="search"
-                id="example-search-input"
-              />
+    <div class="container_bluid">
+      <!-- header -->
+      <header>
+        <nav class="navbar navbar-expand-sm navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img src="images/logo.png" alt="logo"
+            /></a>
+            <button
+              class="navbar-toggler"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+            >
+              <img src="images/mob-menu.png" alt="mob_menu" />
+            </button>
+            <div
+              class="navbar-collapse collapse justify-content-end"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <h5 class="bold_name">Home</h5>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <h5 class="bold_name">About</h5>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <h5 class="bold_name">Rooms</h5>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <h5 class="bold_name">Contact</h5>
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
+        </nav>
+      </header>
 
-          <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-            <div class="container-fluid">
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link" href="#">Home</a>
-                  <a class="nav-link" href="#">About</a>
-                  <a class="nav-link" href="#">Offers</a>
-                  <a class="nav-link" href="#">Contact</a>
+      <!-- banner -->
+      <div class="imagebackground col-sm- col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <div class="centered">
+          <h1 class="card-title text-white text-center card_olay">W Hotel</h1>
+          <p class="card-text text-white text-center">
+            Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet
+          </p>
+          <input type="button" value="CHECK AVAILABILITY" class="bold_name1" />
+        </div>
+      </div>
+
+      <div class="container-fluid space_1">
+        <div class="row">
+          <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <div class="backImage"></div>
+          </div>
+          <article
+            class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 bgColor"
+          >
+            <h3 class="text-white">Discover Our</h3>
+            <h3 id="history">History</h3>
+            <p class="text-white banner-text">
+              Lorem ipsum dolor sit amet,consectetur adipiscing elit. Nam
+              convallis metus non nisi euiamod blandit. Suspendisse sodales ex
+              libero efficitur sollicitudin. Nulla aliquam dolor nec ligula
+              scelerisque ,vitae iaculis massa vulputate.Lorem ipsum dolor sit
+              amet.
+            </p>
+          </article>
+        </div>
+      </div>
+
+      <!-- main -->
+
+      <main>
+        <div class="mt-3 mb-3">
+          <h3 class="text-center">Our Best Rooms</h3>
+        </div>
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 template">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="images/room1.png"
+                  alt="Card image"
+                  style="object-fit: cover"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Small Room</h4>
+                  <p class="card-text">
+                    The Hotel Template additionally supplies visitors with
+                    laundry and ironing center.
+                  </p>
+
+                  <a class="btn text-white bgColor1">Book Now</a>
+                  <h3 class="card-text text-right card_test">$20</h3>
                 </div>
               </div>
             </div>
-          </nav>
-        </header>
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 template">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="images/room1.png"
+                  alt="Card image"
+                  style="object-fit: cover"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Small Room</h4>
+                  <p class="card-text">
+                    The Hotel Template additionally supplies visitors with
+                    laundry and ironing center.
+                  </p>
 
-        <!-- Descriptions -->
-        <div class="intro">
-          <div class="card">
-            <div class="card-body d-flex justify-content-between">
-              <div class="lable-1">
-                <h6>Lable</h6>
-                <p>
-                  Contrary to popular belief, <br />Lorem Ipsum is not simply.
-                </p>
-              </div>
-              <div class="lable-2">
-                <h6>Lable</h6>
-                <p>
-                  Contrary to popular belief, <br />Lorem Ipsum is not simply.
-                </p>
-              </div>
-              <div class="lable-3">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur <br />
-                  adipiscing elit,sed do eiusmod tempor <br />
-                  incididunt ut labore et dolore magna aliqua. <br />
-                  Ut enim ad minim veniam, quis nostrud <br />
-                  exercitation ullamco labornisi ut aliquip.
-                </p>
-              </div>
-              <div class="lable-2">
-                <h6>Lable</h6>
-                <p>
-                  Contrary to popular belief,<br />
-                  Lorem Ipsum is not simply.
-                </p>
+                  <a class="btn text-white bgColor1">Book Now</a>
+                  <h3 class="card-text text-right card_test">$20</h3>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- Products -->
-        <main class="main-content d-flex justify-content-around">
-          <div class="products">
-            <div class="card-body">
-              <div class="row">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="title text-center">Lorem ipsum dolor</div>
-                    <div class="card-img">
-                      <img src="images/laptop.jpeg" alt="product" />
-                    </div>
-                    <div class="details d-flex">
-                      <div class="card-price">Rs. 1,00,000</div>
-                      <div class="card-btn">
-                        <button class="btn btn-primary">Add to Cart</button>
-                      </div>
-                    </div>
-                  </div>
+        <div class="container-fluid hotel-image">
+          <div class="row">
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+              <div class="card text-center single">
+                <img
+                  class="card-img-top"
+                  src="images/room2.png"
+                  alt="Card image"
+                  style="object-fit: cover"
+                />
+                <div class="card-img-overlay">
+                  <h3 class="card-text text-right card_test">$28</h3>
                 </div>
               </div>
             </div>
-
-            <div class="card-body">
-              <div class="row">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="title text-center">Lorem ipsum dolor</div>
-                    <div class="card-img">
-                      <img src="images/laptop.jpeg" alt="product" />
-                    </div>
-                    <div class="details d-flex">
-                      <div class="card-price">Rs. 1,00,000</div>
-                      <div class="card-btn">
-                        <button class="btn btn-primary">Add to Cart</button>
-                      </div>
-                    </div>
-                  </div>
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+              <div class="card single">
+                <img
+                  class="card-img-top"
+                  src="images/room3.png"
+                  alt="Card image"
+                  style="object-fit: cover"
+                />
+                <div class="card-img-overlay">
+                  <h3 class="card-text text-right card_test">$10</h3>
                 </div>
               </div>
             </div>
-
-            <div class="card-body">
-              <div class="row">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="title text-center">Lorem ipsum dolor</div>
-                    <div class="card-img">
-                      <img src="images/laptop.jpeg" alt="product" />
-                    </div>
-                    <div class="details d-flex">
-                      <div class="card-price">Rs. 1,00,000</div>
-                      <div class="card-btn">
-                        <button class="btn btn-primary">Add to Cart</button>
-                      </div>
-                    </div>
-                  </div>
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+              <div class="card text-center card-3 single">
+                <img
+                  class="card-img-top"
+                  src="images/room2.png"
+                  alt="Card image"
+                  style="object-fit: cover"
+                />
+                <div class="card-img-overlay">
+                  <h3 class="card-text text-right card_test">$28</h3>
                 </div>
               </div>
             </div>
-
-            <div class="card-body">
-              <div class="row">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="title text-center">Lorem ipsum dolor</div>
-                    <div class="card-img">
-                      <img src="images/laptop.jpeg" alt="product" />
-                    </div>
-                    <div class="details d-flex">
-                      <div class="card-price">Rs. 1,00,000</div>
-                      <div class="card-btn">
-                        <button class="btn btn-primary">Add to Cart</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="card-body">
-              <div class="row">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="title text-center">Lorem ipsum dolor</div>
-                    <div class="card-img">
-                      <img src="images/laptop.jpeg" alt="product" />
-                    </div>
-                    <div class="details d-flex">
-                      <div class="card-price">Rs. 1,00,000</div>
-                      <div class="card-btn">
-                        <button class="btn btn-primary">Add to Cart</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="card-body">
-              <div class="row">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="title text-center">Lorem ipsum dolor</div>
-                    <div class="card-img">
-                      <img src="images/laptop.jpeg" alt="product" />
-                    </div>
-                    <div class="details d-flex">
-                      <div class="card-price">Rs. 1,00,000</div>
-                      <div class="card-btn">
-                        <button class="btn btn-primary">Add to Cart</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="card-body">
-              <div class="row">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="title text-center">Lorem ipsum dolor</div>
-                    <div class="card-img">
-                      <img src="images/laptop.jpeg" alt="product" />
-                    </div>
-                    <div class="details d-flex">
-                      <div class="card-price">Rs. 1,00,000</div>
-                      <div class="card-btn">
-                        <button class="btn btn-primary">Add to Cart</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="card-body">
-              <div class="row">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="title text-center">Lorem ipsum dolor</div>
-                    <div class="card-img">
-                      <img src="images/laptop.jpeg" alt="product" />
-                    </div>
-                    <div class="details d-flex">
-                      <div class="card-price">Rs. 1,00,000</div>
-                      <div class="card-btn">
-                        <button class="btn btn-primary">Add to Cart</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="card-body">
-              <div class="row">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="title text-center">Lorem ipsum dolor</div>
-                    <div class="card-img">
-                      <img src="images/laptop.jpeg" alt="product" />
-                    </div>
-                    <div class="details d-flex">
-                      <div class="card-price">Rs. 1,00,000</div>
-                      <div class="card-btn">
-                        <button class="btn btn-primary">Add to Cart</button>
-                      </div>
-                    </div>
-                  </div>
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+              <div class="card text-center card-3 single">
+                <img
+                  class="card-img-top"
+                  src="images/room3.png"
+                  alt="Card image"
+                  style="object-fit: cover"
+                />
+                <div class="card-img-overlay">
+                  <h3 class="card-text text-right card_test">$10</h3>
                 </div>
               </div>
             </div>
           </div>
-          <!-- Cart -->
-          <div class="card">
-            <div class="card-head">
-              <p class="title text-center">Shoping Cart</p>
-              <div class="cart-product">
-                <div
-                  class="cart-item d-flex justify-content-around align-items-center"
+
+          <br />
+          <div class="row">
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+              <div class="card text-center single">
+                <img
+                  class="card-img-top"
+                  src="images/room4.png"
+                  alt="Card image"
+                  style="object-fit: cover"
+                />
+                <div class="card-img-overlay">
+                  <h3 class="card-text text-right card_test">$40</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+              <div class="card single">
+                <img
+                  class="card-img-top"
+                  src="images/room5.png"
+                  alt="Card image"
+                  style="object-fit: cover"
+                />
+                <div class="card-img-overlay">
+                  <h3 class="card-text text-right card_test">$30</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+              <div class="card text-center card-3 single">
+                <img
+                  class="card-img-top"
+                  src="images/room4.png"
+                  alt="Card image"
+                  style="object-fit: cover"
+                />
+                <div class="card-img-overlay">
+                  <h3 class="card-text text-right card_test">$40</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+              <div class="card text-center card-3 single">
+                <img
+                  class="card-img-top"
+                  src="images/room5.png"
+                  alt="Card image"
+                  style="object-fit: cover"
+                />
+                <div class="card-img-overlay">
+                  <h3 class="card-text text-right card_test">$30</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- footer -->
+      <footer class="container-fluid page-footer mt-3 bg">
+        <div class="container-fluid p-3">
+          <div class="row mt-2">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xl-4 col-xxl-4 mb-3">
+              <h5 class="font-weight-bold bold_name2">Phone Support</h5>
+              <span href="#" class="">+ 01 234 567 890 </span>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xl-4 col-xxl-4">
+              <h5 class="font-weight-bold bold_name2">Follow Us</h5>
+
+              <ul class="ul1 list-inline ml-3 mb-3">
+                <li class="mr-3 list-inline-item">
+                  <span><img src="images/fb.png" alt="fb" /></span>
+                </li>
+                <li class="mr-3 list-inline-item">
+                  <span
+                    ><img src="images/google-plus.png" alt="google-plus"
+                  /></span>
+                </li>
+                <li class="mr-3 list-inline-item">
+                  <span><img src="images/twitter.png" alt="twitter" /></span>
+                </li>
+                <li class="mr-3 list-inline-item">
+                  <span><img src="images/skype.png" alt="skype" /></span>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xl-4 col-xxl-4">
+              <h5 class="font-weight-bold bold_name2">Subscribe Us</h5>
+              <div class="input-group input-group-sm mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  aria-label="Sizing example input"
+                  aria-describedby="inputGroup-sizing-sm"
+                  placeholder="Email"
+                />
+                <button
+                  class="input-group-text bg-black text-white"
+                  id="inputGroup-sizing-sm"
                 >
-                  <div class="item-image">
-                    <img
-                      src="images/laptop.jpeg"
-                      alt="product"
-                      class="cart-img"
-                    />
-                  </div>
-                  <div class="cart-cross">x</div>
-                  <div class="cart-price">1,00,000</div>
-                </div>
-              </div>
-
-              <div class="cart-product">
-                <div
-                  class="cart-item d-flex justify-content-around align-items-center"
-                >
-                  <div class="item-image">
-                    <img
-                      src="images/laptop.jpeg"
-                      alt="product"
-                      class="cart-img"
-                    />
-                  </div>
-                  <div class="cart-cross">x</div>
-                  <div class="cart-price">1,00,000</div>
-                </div>
-              </div>
-            </div>
-            <hr />
-            <div class="card-body">
-              <p class="text-center">Total: 2,00,000</p>
-              <div class="cart-btn d-flex justify-content-around">
-                <button class="btn btn-secondary">Empty Cart</button>
-                <button class="btn btn-primary">Checkout</button>
+                  Subsribe
+                </button>
               </div>
             </div>
           </div>
-        </main>
-
-        <hr />
-        <!-- footer -->
-        <footer>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="footer-content">
-                  <p class="text-center">
-                    Copyright @ 2019 ShoppingCart. All rights reserved.
-                  </p>
-                </div>
-              </div>
-            </div>
+        </div>
+        <div class="row" id="bg_black">
+          <div class="text-center text-white p-3 tex_medium">
+            Copyright © W-Hotels 2019
           </div>
-        </footer>
-      </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
